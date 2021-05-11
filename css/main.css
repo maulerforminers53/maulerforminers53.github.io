@@ -1,0 +1,60 @@
+body {
+	background-color: lightgreen;
+	font-family: Comic Sans MS;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid black;
+	border-radius: 5px;
+	max-width: 1024px;
+	min-width: 256px;
+	padding-top: 8px;
+	padding-bottom: 24px;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+html {
+	background: radial-gradient(circle, grey, grey 50%, lightgrey, grey);
+	background-size: 8px 8px;
+	background-attachment: fixed;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 16px;
+}
+
+nav ul li {
+	display: inline;
+	padding-right: 16px;
+	padding-left: 16px;
+	border-right: 2px solid black;
+	font-weight: bold;
+}
+
+nav ul li:last-child {
+	border-right: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+nav ul li a:hover {
+	color: blue;
+}
+
+nav ul li a:active {
+	color: white;
+}
+
+img {
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+#header {
+	width: 100%;
+	height: auto;
+}
